@@ -1,6 +1,10 @@
 # String
 print('----STRING----')
 var = 'Anand Aggarwal'
+print(var[-7:])
+print(var[:-7])
+print(var[1:])
+print(var[:1])
 print(var)
 print(type(var))
 print(var[4])
