@@ -37,3 +37,13 @@ print('----POP----')
 var = [1, 2, 3]
 var.pop()
 print(var)
+
+print('----INSERT RANGE USING LOOP----')
+number = []
+for i in range(6):
+    number.append(i)
+print(number)
+
+print('----INSERT RANGE USING RANGE METHOD----')
+number2 = list(range(1, 280))
+print(number2)
