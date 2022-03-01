@@ -1,6 +1,7 @@
 def hello():
     print('hello')
     print('hello again')
+    return "Hello Returned"
 
 
 def get_integer():
@@ -17,6 +18,7 @@ def main():
     value = get_integer()
     print('Integer value', value)
     print('Sum is', add(12, value))
+    print(hello())
 
 
 hello()
